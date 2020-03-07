@@ -11,3 +11,4 @@ def draw_aquare():
         brad.right(90)
         i+=1
 draw_aquare()
+print(123)
