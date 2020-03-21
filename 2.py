@@ -4,11 +4,16 @@ def draw_aquare():
     window=turtle.Screen()
     window.bgcolor("white")
     brad.shape("turtle")
-    brad.color("black")
-    brad.speed(2)
-    for i in range(4):
-        brad.forward(100)
-        brad.right(90)
+    brad.color("white")
+    brad.speed(5)
+    brad.setposition(-150, 0)
+    brad.color("blue")
+    for i in range(36):
+        brad.forward(300)
+        brad.right(120)
         i+=1
+        for j in range(0,10,2):
+            brad.right(10)
+            j+=1
+       
 draw_aquare()
-print(123)
